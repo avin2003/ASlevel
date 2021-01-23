@@ -26,7 +26,7 @@ def GetKeyword():
     print("this is the actual definition:", word[2])
     return answer
 
-for run in range(2):
+for run in range(len(Keywords):
     answer = GetKeyword()
     answer1= answer.split()
     counter =0
